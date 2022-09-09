@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav, .information {
+    background-color: rgb(0, 154, 68);
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-links a {
+    padding-left: 40px;
+    display: inline-flex;
+    font-size: 18px;
+}
+
+.left-links a {
+    font-size: 24px;
+}
+
+.information {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left-info-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    width: 50%;
+    font-size: 18px;
+}
+
+button {
+    width: max-content;
+    background-color: rgb(255, 130, 0);
+    color: #1F2937;
+    border-radius: 4px;
+    border: solid #1F2937 1px;
+    padding: 8px 16px;
+    font-size: 18px;
+    }
+
+.right-info-picture img {
+    width: 500px;
+    border-radius: 4px;
+}
+
+.title {
+    text-align: center;
+    margin: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.regions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 auto;
+    padding: 100px;
+    row-gap: 32px;
+    column-gap: 32px;
+    font-size: 18px;
+}
+
+.regions img {
+    width: 100%;
+    border-radius: 4px;
+    row-gap: 32px;
+}
+
+.heartlands, .east, .atlantic, .dublin {
+    max-width: 250px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+
+  .text {
+    padding: 16px;
+  }
+
+  .quote {
+    background-color: rgb(255, 130, 0, .5);
+    color: #1F2937;
+    padding: 100px;
+  }
+
+  .quote i {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 100;
+  }
+
+  .signature {
+    font-weight: 800;
+    text-align: end;
+    font-size: 24px;
+  }
+
+  .sign-up {
+    background-color: rgb(0, 154, 68);
+    color: white;
+    border-radius: 4px;
+    padding: 40px;
+    display: grid;
+    max-width: 800px;
+    margin: 80px auto;
+  }
+
+  .sign-up__title {
+    font-weight: 800;
+    font-size: 24px;
+  }
+
+  .sign-up__txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 18px;
+  }
+
+  .footer {
+    height: 72px;
+    background: #eee;
+    color: darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
